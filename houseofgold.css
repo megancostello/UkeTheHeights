@@ -1,0 +1,69 @@
+
+.achord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("achord.png");
+}
+
+.bmchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("bmchord.png");
+}
+
+.b7chord {
+	text-align:center;
+	margin-left: 50%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("b7chord.png");
+}
+
+.cmchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+    content:url("cmchord.png");
+}
+
+.dchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+    content:url("dchord.png");
+}
+
+.emchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+    content:url("emchord.png");
+}
+
+.gchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+    content:url("gchord.png");
+}
+
+#verse{
+	text-align:center;
+	margin-left: 10%;
+	margin-top:5%;
+}

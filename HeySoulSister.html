@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <link rel="stylesheet" href="heysoulsister.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <div style="text-align:center; ">
+      <h3 style="margin-top:3%; color:black">Hey, Soul Sister</h3>
+    </div>
+
+    <script language="javascript">
+
+      function setImage(id, value){
+        document.getElementById(id).className = value;
+      }
+
+      function delayImage(){
+        var i = 1;
+        var id = "chord";
+        for (var key in chords) {
+          setTimeout(setImage, i * 3000, id, chords[key]);
+          i++;
+        }
+        
+      }
+
+      var song = {
+        Verse2: "Hey-ay,",
+        Verse3: "Hey-ay-AY-ay-ay,", 
+        Verse4: "Hey-ay-AY-ay-ay",
+        Verse5: "Your lipstick stains",
+        Verse6: "on the front lobe",
+        Verse7: "of my left",
+        Verse8: "side brains",
+        Verse9: "I knew I wouldn't forget you",
+        Verse10: "and so I went and let you", 
+        Verse11: "blow my mind",
+        Verse12: " ",
+        Verse13: " ",
+        Verse14: "You sweet moonbeam",
+        Verse15: "the smell of you",
+        Verse16: "in every single dream",
+        Verse17: "I dream",
+        Verse18: "I knew when we collided you're the one",
+        Verse19: "I have decided", 
+        Verse20: "who's one of my kind",
+        Verse21: " ",
+        Verse22: " ",
+
+      }
+
+      var chords = {
+        chord2: "dchord",
+        chord3: "emchord",
+        chord4: "cchord",
+        chord5: "gchord",
+        chord6: "dchord",
+        chord7: "emchord",
+        chord8: "cchord",
+        chord9: "gchord",
+        chord10: "dchord",
+        chord11: "emchord",
+        chord12: "cchord",
+        chord13: "dchord",
+        chord14: "gchord",
+        chord15: "dchord",
+        chord16: "emchord",
+        chord17: "cchord",
+        chord18: "gchord",
+        chord19: "dchord",
+        chord20: "emchord",
+        chord12: "cchord",
+        chord22: "dchord",
+
+      }
+
+      function changeVerse(key){
+        document.getElementById("verse").innerHTML = song[key];
+      }
+
+      function delayVerse(){
+        var i = 1;
+        for (var key in song) {
+          setTimeout(changeVerse, i*3000, key);
+          i++;
+        }
+      }
+
+      
+
+    </script>
+  </head>
+<body style="background-color:#a8d1e0">
+  <div style="text-align: center; margin-top: 5%;">
+    <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+  </div>
+
+
+  <div style="text-align:center; "></div>  
+  <img id ="chord" class="gchord" src="gchord.png">
+    <h3 id="verse">Intro</h3>
+  
+  </body>
+</html>

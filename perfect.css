@@ -1,0 +1,42 @@
+
+.amchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("amchord.png");
+}
+
+.cchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("cchord.png");
+}
+
+.fchord {
+	text-align:center;
+	margin-left: 50%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("fchord.png");
+}
+
+.gchord {
+	text-align:center;
+	margin-left: 47%;
+	margin-top:5%;
+	height: 200px;
+	width:100px;
+	content:url("gchord.png");
+}
+
+#verse{
+	text-align:center;
+	margin-left: 10%;
+	margin-top:5%;
+}
