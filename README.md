@@ -26,7 +26,7 @@ In the very beginning of the hackathon, we were struggling to come up with a con
 
 One challenge we ran into was transitioning our HTML files to a live website. Creating the domain was easy enough, but learning FTP with Domain.com was difficult to say the least. We eventually fixed it after downloading FileZilla to transfer the files, log onto the server, and after a long chat with Justin from tech support at 1 am. God Bless Justin.
 
-Another difficulty we had was implementing the audio player inside the website. This involved several hours of testing out different audio players, we eventually realized we might be making it a bit harder than it had to be. It ended up being one line of code in our HTML file...
+Another difficulty we had was implementing the audio player inside the website. This involved several hours of testing out different audio players, but we eventually realized we might be making it a bit harder than it had to be. It ended up being one line of code in our HTML file...
 
 Many hours in Stuart Dining Hall and late night conversations were involved with this project. 
 
