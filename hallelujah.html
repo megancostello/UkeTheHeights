@@ -9,8 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <div style="text-align:center; ">
-      <h3 style="margin-top:3%; color:black">Hallelujah</h3>
+      <h2 style="margin-top:3%; color:#69B4C8">Hallelujah</h2>
     </div>
 
     <script language="javascript">
@@ -26,12 +27,12 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
         Verse2: "a secret chord",
-        Verse3: "That David played,", 
+        Verse3: "That David played,",
         Verse4: "and it pleased the Lord",
         Verse5: "But you don't really",
         Verse6: "care for music,",
@@ -60,20 +61,18 @@
           i++;
         }
       }
-
-      
-
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
     <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+    <br>
+    <br>
+    <audio class="player" src="hallelujah.mp3" controls></audio>
   </div>
-
-
-  <div style="text-align:center; "></div>  
+  <div style="text-align:center; "></div>
   <img id ="chord" class="cchord" src="cchord.png">
     <h3 id="verse">I heard there was</h3>
-  
+
   </body>
 </html>

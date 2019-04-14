@@ -9,8 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <div style="text-align:center; ">
-      <h3 style="margin-top:3%; color:black">I'm Yours</h3>
+      <h2 style="margin-top:3%; color:#69B4C8">I'm Yours</h2>
     </div>
 
     <script language="javascript">
@@ -26,7 +27,7 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
@@ -63,18 +64,21 @@
         }
       }
 
-      
+
 
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
     <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+    <br>
+    <br>
+    <audio class="player" src="imyours.mp3" controls></audio>
   </div>
 
 
     <img id ="chord" class="cchord" src="cchord.png">
     <h3 id="verse">Well you done done me and you bet I felt it</h3>
-  
+
   </body>
 </html>

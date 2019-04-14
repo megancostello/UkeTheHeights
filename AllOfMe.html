@@ -3,6 +3,7 @@
   <head>
 
     <link rel="stylesheet" href="allofme.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -26,19 +27,19 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
         Verse2: "without your",
-        Verse3: "smart mouth", 
+        Verse3: "smart mouth",
         Verse4: "Drawing me in,",
         Verse5: "and kicking me out",
         Verse6: "Got my head spinning,",
         Verse7: "no kidding,",
         Verse8: "I can't pin you",
         Verse9: "down",
-        Verse10: "What's going on in that", 
+        Verse10: "What's going on in that",
         Verse11: "beautiful mind",
         Verse12: "I'm on your magical",
         Verse13: "mystery ride",
@@ -80,20 +81,18 @@
           i++;
         }
       }
-
-      
-
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
     <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+    <br>
+    <br>
+    <audio class="player" src="allofme.mp3" controls></audio>
   </div>
-
-
-  <div style="text-align:center; "></div>  
+  <div style="text-align:center; "></div>
   <img id ="chord" class="amchord" src="amchord.png">
     <h3 id="verse">What would I do</h3>
-  
+
   </body>
 </html>

@@ -9,8 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <div style="text-align:center; ">
-      <h3 style="margin-top:3%; color:black">Hey, Soul Sister</h3>
+      <h2 style="margin-top:3%; color:#69B4C8">Hey, Soul Sister</h2>
     </div>
 
     <script language="javascript">
@@ -26,19 +27,19 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
         Verse2: "Hey-ay,",
-        Verse3: "Hey-ay-AY-ay-ay,", 
+        Verse3: "Hey-ay-AY-ay-ay,",
         Verse4: "Hey-ay-AY-ay-ay",
         Verse5: "Your lipstick stains",
         Verse6: "on the front lobe",
         Verse7: "of my left",
         Verse8: "side brains",
         Verse9: "I knew I wouldn't forget you",
-        Verse10: "and so I went and let you", 
+        Verse10: "and so I went and let you",
         Verse11: "blow my mind",
         Verse12: " ",
         Verse13: " ",
@@ -47,7 +48,7 @@
         Verse16: "in every single dream",
         Verse17: "I dream",
         Verse18: "I knew when we collided you're the one",
-        Verse19: "I have decided", 
+        Verse19: "I have decided",
         Verse20: "who's one of my kind",
         Verse21: " ",
         Verse22: " ",
@@ -91,19 +92,22 @@
         }
       }
 
-      
+
 
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
     <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+    <br>
+    <br>
+    <audio class="player" src="hallelujah.mp3" controls></audio>
   </div>
 
 
-  <div style="text-align:center; "></div>  
+  <div style="text-align:center; "></div>
   <img id ="chord" class="gchord" src="gchord.png">
     <h3 id="verse">Intro</h3>
-  
+
   </body>
 </html>

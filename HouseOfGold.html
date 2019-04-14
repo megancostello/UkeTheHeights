@@ -9,8 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <div style="text-align:center; ">
-      <h3 style="margin-top:3%; color:black">House of Gold</h3>
+      <h2 style="margin-top:3%; color:#69B4C8  ">House of Gold</h2>
     </div>
 
     <script language="javascript">
@@ -26,12 +27,12 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
         Verse2: "Son, when I grow old,",
-        Verse3: "Will you buy me", 
+        Verse3: "Will you buy me",
         Verse4: "a house of gold?",
         Verse5: "And when your father",
         Verse6: "turns to stone,",
@@ -40,7 +41,7 @@
         Verse9: "of me?",
         Verse10: "She asked me,",
         Verse11: "Son, when I grow old,",
-        Verse12: "Will you buy me", 
+        Verse12: "Will you buy me",
         Verse13: "a house of gold?",
         Verse14: "And when your father",
         Verse15: "turns to stone,",
@@ -83,19 +84,22 @@
         }
       }
 
-      
+
 
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
     <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+    <br>
+    <br>
+    <audio class="player" src="houseofgold.mp3" controls></audio>
   </div>
 
 
-  <div style="text-align:center; "></div>  
+  <div style="text-align:center; "></div>
   <img id ="chord" class="dchord" src="dchord.png">
     <h3 id="verse">She asked me,</h3>
-  
+
   </body>
 </html>

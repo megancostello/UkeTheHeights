@@ -3,14 +3,16 @@
   <head>
 
     <link rel="stylesheet" href="countonme.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <div style="text-align:center; ">
-      <h3 style="margin-top:3%; color:black">Count On Me</h3>
+      <h2 style="margin-top:3%; color:#69B4C8">Count On Me</h2>
     </div>
 
     <script language="javascript">
@@ -26,19 +28,19 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
         Verse2: "of the sea",
-        Verse3: "I'll sail the world", 
+        Verse3: "I'll sail the world",
         Verse4: " ",
         Verse5: "to find you",
         Verse6: "If you ever find yourself lost in the dark",
         Verse7: "and you can't see",
         Verse8: "I'll be the light",
         Verse9: " ",
-        Verse10: "to guide you", 
+        Verse10: "to guide you",
         Verse11: "Find out what we're",
         Verse12: "made of",
         Verse13: "When we are called to help our friends",
@@ -74,20 +76,18 @@
           i++;
         }
       }
-
-      
-
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
-    <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+  <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+  <br>
+  <br>
+  <audio class="player" src="countonme.mp3" controls></audio>
   </div>
-
-
-  <div style="text-align:center; "></div>  
+  <div style="text-align:center; "></div>
   <img id ="chord" class="cchord" src="cchord.png">
     <h3 id="verse">If you ever find yourself stuck in the middle</h3>
-  
+
   </body>
 </html>

@@ -9,8 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
     <div style="text-align:center; ">
-      <h3 style="margin-top:3%; color:black">Hey There Delilah</h3>
+      <h2 style="margin-top:3%; color:#69B4C8">Hey There Delilah</h2>
     </div>
 
     <script language="javascript">
@@ -26,19 +27,19 @@
           setTimeout(setImage, i * 3000, id, chords[key]);
           i++;
         }
-        
+
       }
 
       var song = {
         Verse2: "what's it like in New York City?",
-        Verse3: "I'm a thousand miles away,", 
+        Verse3: "I'm a thousand miles away,",
         Verse4: "but girl tonight you look so pretty,",
         Verse5: "Yes you do,",
         Verse6: "Times Square",
         Verse7: "can't shine as bright",
         Verse8: "as you",
         Verse9: "I swear it's true.",
-        Verse10: "Hey there Delilah,", 
+        Verse10: "Hey there Delilah,",
         Verse11: "don't you worry about the distance,",
         Verse12: "I'm right there if you get lonely,",
         Verse13: "Give this song another listen,",
@@ -83,19 +84,22 @@
         }
       }
 
-      
+
 
     </script>
   </head>
 <body style="background-color:#a8d1e0">
   <div style="text-align: center; margin-top: 5%;">
     <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+    <br>
+    <br>
+    <audio class="player" src="heytheredelilah.mp3" controls></audio>
   </div>
 
 
-  <div style="text-align:center; "></div>  
+  <div style="text-align:center; "></div>
   <img id ="chord" class="gchord" src="gchord.png">
     <h3 id="verse">Hey there Delilah,</h3>
-  
+
   </body>
 </html>
