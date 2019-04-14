@@ -32,7 +32,7 @@ Many hours in Stuart Dining Hall and late night conversations were involved with
 
 ## Accomplishments that we're proud of
 
-We are proud of making the site completely live and functional! It was so gratifying to get the FTP to work to our live site, after all the hard work we put into creating the HTML files, I'm really glad we were able to make it into a functional domain. 
+We are proud of making the site completely live and functional! It was so gratifying to get the FTP to work with our live site, after all the hard work we put into creating the HTML files, I'm really glad we were able to make it into a functional domain. 
 
 We are also extremely proud of starting our project at 6 pm the day before it was due and working hard to have a working project ready this morning. It took many late/early hours of our days, but it is definitely a tribute to the efforts of dedication and hard work. 
 
