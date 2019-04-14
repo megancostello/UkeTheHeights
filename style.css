@@ -1,0 +1,29 @@
+
+
+
+body {
+	background-color: #66cc66;
+}
+
+h1 {
+	text-align: center;
+}
+
+.button {
+	position:relative;
+	height: 35px;
+	width:50px;
+	background: black;
+	color:white;
+	font-size:20px;
+}
+
+.button1 {
+	position:relative;
+	height: 50px;
+	width:300px;
+	background:black;
+	color:white;
+	font-size:20px;
+	float: left;
+}

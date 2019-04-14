@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <link rel="stylesheet" href="styleimyours.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <div style="text-align:center; ">
+      <h3 style="margin-top:3%; color:black">I'm Yours</h3>
+    </div>
+
+    <script language="javascript">
+
+      function setImage(id, value){
+        document.getElementById(id).className = value;
+      }
+
+      function delayImage(){
+        var i = 1;
+        var id = "chord";
+        for (var key in chords) {
+          setTimeout(setImage, i * 3000, id, chords[key]);
+          i++;
+        }
+        
+      }
+
+      var song = {
+        Verse2: "I tried to be chill but you're so hot that I melted",
+        Verse3: "I fell right through the cracks",
+        Verse4: "And now I'm trying to get back",
+        Verse5: "Before the cool done run out",
+        Verse6: "I'll be giving it my best-est",
+        Verse7: "And nothing's going to stop me but divine intervention",
+        Verse8: "I reckon it's again my turn",
+        Verse9: "To win some or learn some"
+      }
+
+      var chords = {
+        chord2: "gchord",
+        chord3: "amchord",
+        chord4: "fchord",
+        chord5: "cchord",
+        chord6: "cchord",
+        chord7: "cchord",
+        chord8: "amchord",
+        chord9: "fchord"
+      }
+
+      function changeVerse(key){
+        document.getElementById("verse").innerHTML = song[key];
+      }
+
+      function delayVerse(){
+        var i = 1;
+        for (var key in song) {
+          setTimeout(changeVerse, i*3000, key);
+          i++;
+        }
+      }
+
+      
+
+    </script>
+  </head>
+<body style="background-color:#a8d1e0">
+  <div style="text-align: center; margin-top: 5%;">
+    <button class="btn btn-dark" onclick="delayImage(); delayVerse();">Start</button>
+  </div>
+
+
+    <img id ="chord" class="cchord" src="cchord.png">
+    <h3 id="verse">Well you done done me and you bet I felt it</h3>
+  
+  </body>
+</html>
